@@ -9,7 +9,7 @@ public class NegativeTests {
 
     @Test
     void loginPageShouldHaveEmptyFields() {
-        open("https://lknew.ch-sk.ru/person-auth-form"); // сщздаю конфликт
+        open("https://lknew.ch-sk.ru/person-auth-form"); // создаю конфликт
 
         // Проверяем, что поле логина существует и пустое
         $("#iPhoneOrEmail").shouldBe(Condition.visible);
